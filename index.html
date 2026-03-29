@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CandleSense - Support</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background: #090c14;
+      color: #e5e7eb;
+      line-height: 1.7;
+    }
+
+    header {
+      background: linear-gradient(160deg, #0d1220 0%, #0a1628 100%);
+      border-bottom: 1px solid rgba(0, 255, 200, 0.12);
+      padding: 56px 24px 48px;
+      text-align: center;
+    }
+
+    header .logo {
+      font-size: 48px;
+      margin-bottom: 16px;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      background: linear-gradient(90deg, #00e5ff, #00c853);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      margin-bottom: 8px;
+    }
+
+    header p {
+      color: rgba(229, 231, 235, 0.55);
+      font-size: 1rem;
+    }
+
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+
+    section {
+      margin-bottom: 48px;
+    }
+
+    h2 {
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: #00e5cc;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid rgba(0, 229, 200, 0.15);
+    }
+
+    p {
+      color: rgba(229, 231, 235, 0.75);
+      margin-bottom: 12px;
+      font-size: 0.95rem;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.04);
+      border: 1px solid rgba(255, 255, 255, 0.07);
+      border-radius: 14px;
+      padding: 20px 24px;
+      margin-bottom: 14px;
+    }
+
+    .card h3 {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: #e5e7eb;
+      margin-bottom: 6px;
+    }
+
+    .card p {
+      font-size: 0.875rem;
+      margin-bottom: 0;
+    }
+
+    .disclaimer-box {
+      background: rgba(255, 120, 0, 0.07);
+      border: 1px solid rgba(255, 120, 0, 0.25);
+      border-radius: 14px;
+      padding: 20px 24px;
+      margin-bottom: 14px;
+    }
+
+    .disclaimer-box h3 {
+      font-size: 0.95rem;
+      font-weight: 600;
+      color: #f97316;
+      margin-bottom: 6px;
+    }
+
+    .disclaimer-box p {
+      font-size: 0.875rem;
+      color: rgba(229, 231, 235, 0.7);
+      margin-bottom: 0;
+    }
+
+    a {
+      color: #00e5cc;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .contact-btn {
+      display: inline-block;
+      margin-top: 12px;
+      padding: 12px 28px;
+      background: linear-gradient(90deg, #00e5ff, #00c853);
+      color: #000;
+      font-weight: 600;
+      border-radius: 10px;
+      text-decoration: none;
+      font-size: 0.95rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 32px 24px;
+      border-top: 1px solid rgba(255, 255, 255, 0.06);
+      color: rgba(229, 231, 235, 0.3);
+      font-size: 0.8rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">&#128302;</div>
+  <h1>CandleSense</h1>
+  <p>Technical analysis signals for crypto markets</p>
+</header>
+
+<main>
+
+  <section>
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="card">
+      <h3>What is CandleSense?</h3>
+      <p>CandleSense is a technical analysis tool that generates automated signals based on crypto market data. It uses algorithms such as RSI, MACD, Bollinger Bands, and ADX to identify potential market conditions.</p>
+    </div>
+
+    <div class="card">
+      <h3>Where does the market data come from?</h3>
+      <p>Market data is sourced from CoinGecko. You will need a free CoinGecko Demo API key to use the app. You can get one at coingecko.com under the free Demo plan.</p>
+    </div>
+
+    <div class="card">
+      <h3>What do the signal levels mean?</h3>
+      <p>Signals range from Strong Buy to Strong Sell. They reflect what the algorithm has detected across multiple technical indicators at your chosen profile sensitivity. They are algorithm outputs only, not recommendations.</p>
+    </div>
+
+    <div class="card">
+      <h3>What is the trading profile?</h3>
+      <p>The trading profile (Conservative, Standard, or Aggressive) sets the sensitivity thresholds for signal generation. Conservative requires stronger confirmation before a signal fires. Aggressive fires at lower thresholds and suits active day traders who monitor positions closely.</p>
+    </div>
+
+    <div class="card">
+      <h3>What is guided mode?</h3>
+      <p>Guided mode displays signals in plain language. It is intended for users who are less familiar with technical analysis terminology. The app is locked to Conservative profile in guided mode for safer defaults.</p>
+    </div>
+
+    <div class="card">
+      <h3>My API key is not working. What should I do?</h3>
+      <p>Make sure you are using a CoinGecko Demo API key (not a paid plan key). You can update your key at any time in the Settings tab. If the issue persists, contact us below.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Important Legal Disclaimer</h2>
+
+    <div class="disclaimer-box">
+      <h3>Not Financial Advice</h3>
+      <p>CandleSense provides automated technical analysis signals for educational and informational purposes only. Nothing in this app constitutes financial advice, investment advice, trading advice, or any other type of advice.</p>
+    </div>
+
+    <div class="disclaimer-box">
+      <h3>Algorithm Outputs Only</h3>
+      <p>The buy, sell, hold, long, and short signals displayed in this app are the outputs of automated technical analysis algorithms. They do not represent recommendations to take any specific action with your money. The algorithm does not consider your personal financial situation, risk tolerance, or investment goals.</p>
+    </div>
+
+    <div class="disclaimer-box">
+      <h3>Risk of Loss</h3>
+      <p>Cryptocurrency trading involves substantial risk of loss. Prices are highly volatile and can move against you rapidly. You may lose some or all of your capital. Never trade with money you cannot afford to lose. Past signal performance does not guarantee future results.</p>
+    </div>
+
+    <div class="disclaimer-box">
+      <h3>Do Your Own Research</h3>
+      <p>Always conduct your own independent research before making any financial decisions. Consult a licensed financial advisor, broker, or other qualified professional before trading. CandleSense is a tool to assist your own analysis, not a substitute for professional advice.</p>
+    </div>
+
+    <div class="disclaimer-box">
+      <h3>No Liability</h3>
+      <p>CandleSense and its developers accept no liability for any financial losses, damages, or other consequences arising from the use of this app or its signal outputs. Use of this app is entirely at your own risk.</p>
+    </div>
+
+    <div class="disclaimer-box">
+      <h3>Regulatory Notice</h3>
+      <p>CandleSense is not a registered investment advisor, broker-dealer, or financial institution. This app is not regulated by the SEC, CFTC, FCA, or any other financial regulatory authority. Laws regarding cryptocurrency trading vary by jurisdiction. It is your responsibility to comply with the laws in your country or region.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact Support</h2>
+    <p>If you have a question that is not answered above or need help with the app, reach out by email.</p>
+    <a href="mailto:rexhep.rexhepi.5@gmail.com" class="contact-btn">Email Support</a>
+  </section>
+
+</main>
+
+<footer>
+  &copy; 2025 CandleSense. All rights reserved.<br />
+  CandleSense is not a registered investment advisor. Signals are algorithm outputs only, not financial advice.
+</footer>
+
+</body>
+</html>
